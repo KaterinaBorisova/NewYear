@@ -1,0 +1,91 @@
+body{
+    background-image: url(новый.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(10, 10, 10) ;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+
+
+.newYear{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+    color: azure;
+    font-family: 'Estonia', cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.christmas{
+    height:230px;
+    width:150px ;
+    background-color: rgb(20, 20, 20);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(191,198,199,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(191,198,199,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(191,198,199,0.75);
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h3{
+    font-size: 30px;
+    font-family: 'Estonia', cursive;
+    color: #f5f740;
+}
+.days,.minutes,.hours,.seconds{
+    font-family: 'Estonia', cursive;
+    font-size: 40px;
+    color: #f5f740;
+}
+.red{
+    font-size: 60px;
+    font-family: 'Estonia', cursive;
+    color: rgb(231, 228, 23);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+   
+}
+.play{
+    width: 50px;
+    height: 50px;
+    background-image: url("https://img.icons8.com/fluency-systems-regular/48/000000/play-record.png");
+    background-size:contain;
+    border-radius:10px;
+    background-color:#f5f740 ;
+}
+.pause{
+    background-image: url("https://img.icons8.com/dotty/80/000000/pause.png");
+}
+
+@media all and (max-width:800px) {
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width:500px) {
+    h1{
+        font-size: 40px;
+    }
+}
